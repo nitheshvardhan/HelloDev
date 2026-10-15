@@ -10,7 +10,7 @@ pipeline {
           stage('Run Python App'){
               steps {
                  bat '"C:\\Users\\DanduNitheshVardhan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" --version'
-                 bat '"C:\Users\DanduNitheshVardhan\AppData\Local\Microsoft\WindowsApps\python.exe" main.py'
+                 bat '"C:\\Users\\DanduNitheshVardhan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" main.py'
               }
           }
           stage('Run Unit Tests'){
