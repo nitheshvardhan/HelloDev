@@ -9,6 +9,7 @@ pipeline {
           }
           stage('Run Python App'){
               steps {
+                 bat '"C:\\Users\\DanduNitheshVardhan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" --version'
                  bat 'python main.py'
               }
           }
