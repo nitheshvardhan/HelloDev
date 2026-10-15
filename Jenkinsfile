@@ -15,7 +15,7 @@ pipeline {
           }
           stage('Run Unit Tests'){
               steps {
-                  bat 'python -m unittest -v test_main'
+                  bat '"C:\\Users\\DanduNitheshVardhan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe-m" unittest -v test_main'
               }
           }
      }
